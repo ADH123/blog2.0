@@ -1,0 +1,162 @@
+nav {
+  display: flex;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 0px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+#banner {
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+#headingtext {
+  width: 45%;
+  height: 30vh;
+  padding: 3%;
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#top {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#headingtext > h1 {
+  font-family: "Abril Fatface", cursive;
+}
+
+#headingtext > h3 {
+  font-family: "Noto Serif Display", serif;
+}
+
+#mainbody {
+  color: red;
+}
+
+#h {
+  font-weight: 900;
+}
+
+#char_pic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#movientvshow {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#videogame {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.creators {
+  display: flex;
+}
+
+.social {
+  width: 60px;
+  height: 60px;
+  padding: 1%;
+}
+
+#character {
+  color: red;
+}
+
+.creators {
+  color: red;
+}
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  color: red;
+}
+
+.big {
+  width: 40%;
+}
+
+.small {
+  width: 20%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.bottom {
+  text-align: center;
+  background-color: black;
+  padding: 3%;
+}
+
+#mainbody {
+  text-align: center;
+}
+
+form {
+  width: 60%;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 60%;
+  height: 30px;
+  margin: 1%;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#yes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
